@@ -1,4 +1,5 @@
 export const LANGUAGES = {
+    'zh-CN': '简体中文',
     en: 'English',
     'pt-br': 'Português (Brasil)',
     es: 'español',
@@ -11,10 +12,11 @@ export const LANGUAGES = {
     id: 'Bahasa Indonesia',
     vn: 'Tiếng Việt',
     uk: 'Українська',
-    ru: 'Русский',
-    'zh-CN': '简体中文'
+    ru: 'Русский'
+    
 };
 export const LANGUAGES_CODE = {
+    'zh-CN': 'zh-CN',
     en: 'en-US',
     'pt-br': 'pt-BR',
     es: 'es-ES',
@@ -27,8 +29,8 @@ export const LANGUAGES_CODE = {
     id: 'id-ID',
     vn: 'vi-VN',
     uk: 'uk-UA',
-    ru: 'ru-RU',
-    'zh-CN': 'zh-CN'
+    ru: 'ru-RU'
+    
 };
 
 const locals = Object.keys(LANGUAGES);
