@@ -51,7 +51,7 @@ export default defineConfig({
   integrations: [tailwind(), react(), sitemap({
     customPages: sitemapCustomPages,
     i18n: {
-      defaultLocale: "en",
+      defaultLocale: "zh-CN",
       locales: LANGUAGES_CODE
     }
   })],
