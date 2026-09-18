@@ -15,6 +15,7 @@ import ru from '@i18n/ru/index';
 import zhCn from '@i18n/zh-CN/index';
 
 export const languages = {
+    'zh-CN': zhCn,
     en,
     'pt-br': ptBr,
     es,
@@ -27,8 +28,8 @@ export const languages = {
     id,
     vn,
     uk,
-    ru,
-    'zh-CN': zhCn
+    ru
+    
 }
 
 export const getLocale = (locale) => {
