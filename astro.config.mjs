@@ -52,12 +52,13 @@ export default defineConfig({
     customPages: sitemapCustomPages,
     i18n: {
       defaultLocale: "zh-CN",
-      locales: LANGUAGES_CODE
+      
+      locales: Object.values(LANGUAGES_CODE)   // ← 关键修复：对象转数组
     }
   })],
   output: "server",
   vite: {
     plugins: [wasm()]
   },
-  adapter: cloudflare(),
+  adapter: cloudflare()
 });
