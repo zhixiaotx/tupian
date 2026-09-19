@@ -59,5 +59,5 @@ export default defineConfig({
   vite: {
     plugins: [wasm()]
   },
-  adapter: cloudflare()
+  adapter: cloudflare(),
 });
