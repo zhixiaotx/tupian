@@ -60,9 +60,5 @@ export default defineConfig({
   vite: {
     plugins: [wasm()]
   },
-  adapter: cloudflare({
-    webAnalytics: {
-      enabled: true
-    }
-  })
+  adapter: cloudflare()
 });
